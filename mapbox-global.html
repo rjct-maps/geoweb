@@ -45,7 +45,8 @@ var map;  // tambien const map;
         map.addControl(
                     new MapboxGeocoder({
                     accessToken: mapboxgl.accessToken,
-                    mapboxgl: mapboxgl
+                    mapboxgl: mapboxgl,
+                    collapsed: true
                     })
                  );
 
