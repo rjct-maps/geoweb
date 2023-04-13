@@ -61,9 +61,9 @@ var config = {
             id: 'Corriol',
             alignment: 'left',
             hidden: false,
-            title: 'Les Madrigueres',
+            title: 'El corriol camanegre',
             image: '',
-            description: 'Kīlauea (en hawaiano: ˈkiːlɔuˈwɛjə) es un volcán en escudo, el más reciente y activo de los cinco que conforman la isla de Hawái. Es uno de los volcanes más activos de la Tierra <br><iframe width="415" height="315" src="https://www.youtube.com/embed/j08bYTBVWrg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            description: 'Una de les espècies més interessants que trobem a la zona és el corriol camanegre, un au límicola que utilitza els sorrals de les platges per a nidificar. Degut a que gran part de les seves zones de cria es troben ocupades per activitats humanes, la seva població ha disminuït de manera preocupant en els últims anys i actualment és una espècie inclòsa al catàleg de fauna amenaçada de Catalunya. <br><iframe width="415" height="315" src="https://www.youtube.com/embed/1-XHhLc2kUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
             location: {
 
                 center: [1.54935, 41.18442],
