@@ -53,7 +53,25 @@ var config = {
                 bearing: -23.20
         },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: 'Comparador',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '<br><iframe width="700" height="315" src="https://rjct-maps.github.io/geoweb/compare_maps.html" title="Mapa comparador" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+            location: {
+                center: [1.55076, 41.18601],
+                zoom: 15.71,
+                pitch: 48.50,
+                bearing: -23.20
+        },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
