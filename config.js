@@ -61,9 +61,9 @@ var config = {
             id: 'Comparador',
             alignment: 'center',
             hidden: false,
-            title: '',
+            title: "Les millores d'hàbitat dels últims anys",
             image: '',
-            description: '<br><iframe width="700" height="315" src="https://rjct-maps.github.io/geoweb/compare_maps.html" title="Mapa comparador" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+            description: 'En aquest comparador podeu observar la renaturalització duta a terme en els últims anys (2006-2022). Desaparèixen usos com els estacionaments i apàreixen llacunes i dunes.<br><iframe width="700" height="315" src="https://rjct-maps.github.io/geoweb/compare_maps.html" title="Mapa comparador" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
             location: {
                 center: [1.55076, 41.18601],
                 zoom: 15.71,
@@ -88,6 +88,26 @@ var config = {
                 zoom: 17.63,
                 pitch: 55.50,
                 bearing: 75.37
+
+        },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: 'Oliba',
+            alignment: 'left',
+            hidden: false,
+            title: 'El pla de mar: un paisatge que desapareix',
+            image: '',
+            description: 'Una de les espècies més interessants que trobem a la zona és el corriol camanegre, un au límicola que utilitza els sorrals de les platges per a nidificar. Degut a que gran part de les seves zones de cria es troben ocupades per activitats humanes, la seva població ha disminuït de manera preocupant en els últims anys i actualment és una espècie inclòsa al catàleg de fauna amenaçada de Catalunya. <br><iframe width="415" height="315" src="https://www.youtube.com/embed/1-XHhLc2kUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+            location: {
+
+                center: [1.54161, 41.20443],
+                zoom: 14,
+                pitch: 59.50,
+                bearing: 83.39
 
         },
             mapAnimation: 'flyTo',
