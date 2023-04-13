@@ -63,7 +63,7 @@ var config = {
             hidden: false,
             title: 'Les Madrigueres',
             image: '',
-            description: 'Kīlauea (en hawaiano: ˈkiːlɔuˈwɛjə) es un volcán en escudo, el más reciente y activo de los cinco que conforman la isla de Hawái. Es uno de los volcanes más activos de la Tierra <br><iframe width="415" height="315" src="https://youtu.be/1-XHhLc2kUc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            description: 'Kīlauea (en hawaiano: ˈkiːlɔuˈwɛjə) es un volcán en escudo, el más reciente y activo de los cinco que conforman la isla de Hawái. Es uno de los volcanes más activos de la Tierra <br><iframe width="415" height="315" src="https://www.youtube.com/embed/j08bYTBVWrg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             location: {
 
                 center: [1.54935, 41.18442],
