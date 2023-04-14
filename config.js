@@ -100,14 +100,71 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'El pla de mar: un paisatge que desapareix',
-            image: '',
-            description: 'Una de les espècies més interessants que trobem a la zona és el corriol camanegre, un au límicola que utilitza els sorrals de les platges per a nidificar. Degut a que gran part de les seves zones de cria es troben ocupades per activitats humanes, la seva població ha disminuït de manera preocupant en els últims anys i actualment és una espècie inclòsa al catàleg de fauna amenaçada de Catalunya. <br><iframe width="415" height="315" src="https://www.youtube.com/embed/1-XHhLc2kUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+            image: 'oliba.jpg',
+            description: "Entre les Madrigueres i Sant Vicenç de Calders trobem el pla de mar, un espai agroforestal amb una activitat agrícola en clara recessió. Tot i el tancament progressiu que està patint la zona en alguns conreus abandonats, es tracta d'un corredor ecològic de gran importància per espècies vinculades als espais oberts. L'òliba és un cas clar d'espècie amenaçada i que necessita, de manera evident, que recuperem aquesta agricultura perduda.",
             location: {
 
                 center: [1.54161, 41.20443],
                 zoom: 14,
                 pitch: 59.50,
                 bearing: 83.39
+
+        },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: 'cargola',
+            alignment: 'right',
+            hidden: false,
+            title: 'La cargola sanguinia',
+            image: 'erodium.jpg',
+            description: "En alguns indrets del pla de mar trobem la cargola sanguinia, una planta de la familia dels geranis i que es troba catalogada com en perill d'extinció, dins del catàleg de flora amenaçada de Catalunya.",
+            location: {
+                center: [1.54312, 41.20312],
+                zoom: 17.58,
+                pitch: 59.00,
+                bearing: 95.39
+
+        },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: 'cuabarrada',
+            alignment: 'left',
+            hidden: false,
+            title: "L'àguila cuabarrada",
+            image: 'cuabarrada.jpg',
+            description: "Al llarg de la comarca trobem diverses zones agrícoles amb un alt valor paisatgístic, ambiental i econòmic. Un cas clar, són els espais oberts que envolten la Bisbal del Penedès i que encara són zones productives i àrea de caçera de l'àguila cuabarrada, un altra rapinyaire catalogada com en perill d'extinció dins del catàleg de fauna amenaçada.",
+            location: {
+                center: [1.49591, 41.27443],
+                zoom: 13.77,
+                pitch: 60.00,
+                bearing: 117.79
+
+        },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
+            id: 'basses',
+            alignment: 'right',
+            hidden: false,
+            title: "Les basses agrícoles",
+            image: 'totil.jpeg',
+            description: "Les basses agrícoles com la Bassa Gran de Llobets, són punts de màxima biodiversitat i cal preservar-los de la seva degradació. Els amfibis, que són el grup d'animals més amenaçats del món, molts cops depenen del bon estat de conservació d'aquests punts d'aigua. El tòtil és un bon exemple d'amfibi que te prefèrencia per criar en aquests indrets.",
+            location: {
+                center: [1.55508, 41.30277],
+zoom: 18,
+pitch: 60.00,
+bearing: 79.16
 
         },
             mapAnimation: 'flyTo',
